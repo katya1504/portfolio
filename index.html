@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <nav>
+    <div class="block">
+      <a href="#block__education">Образование </a>
+      <a href="#block__name">Обо мне </a>
+      <a href="#block__project">Проекты </a>
+      <a href="#block__skills">Ключевые навыки </a>
+      <a href="#block__contacts">Контакты </a>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <div class="container__hello">
+        <p class="container__hello-name">Привет, я Катя.</p>
+        <p class="container__hello-profession"></p>
+      </div>
+
+      <div data-aos="fade-right" data-aos-delay="3000" data-aos-easing="ease-in-sine" data-aos-duration="1200">
+        <div class="container">
+          <img src="fotoThree.png" width="500" class="container__foto" alt="myFoto">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="block__name">
+    
+    <div class="about">
+      <div class="about__block">
+        <p class="about__text">Обо мне</p>
+      </div>
+
+      <div class="about__font">
+        <p class="about__aboutme" data-aos="fade-right" data-aos-duration="2000">Всем привет, меня зовут Катя.
+          <br>По первому образованию - я Архитектор.
+          <br>У меня многолетний опыт в сфере проектирования и дизайна.
+          <br>Именно этот опыт, позволил мне заглянуть в сторону разработки.
+          <br>Т.к. я уже знала много программ для проектирования, дизайна,
+          <br>и вся моя работа связана с работой на компьютере,
+          <br>я решила найти что-то похожее, и наткнулась на курсы Frontend-разработчика.
+          <br>Я начала изучение с базы <font color="#C60021"><strong>HTML и CSS</strong></font>.
+          <br>Эта сфера заняла все мое внимание.
+          <br>Далее я изучила <font color="#C60021"><strong>Bootstrap JavaScript React.</strong></font>
+          <br>Я каждый день учусь и совершенствую свои навыки.
+          <br>Очень хочу стать ценным сотрудником, и приносить пользу компании.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="block__education">
+
+    <div class="about__block">
+      <p class="about__block-text">Образование</p>
+    </div>
+
+    <div class="education">
+      <div class="education__school" data-aos="fade-right" data-aos-duration="2000">
+        <p class="education__school-text">- 2008-2013
+          <br>
+          <br>Белорусский
+          <br>Государственный
+          <br>Университет
+          <br>Транспорта
+          <br>
+          <br><strong>Архитектор.</strong></p>
+        <img src="arhitects.jpg" width="350" class="education__image" alt="arhitects">
+      </div>
+      <div class="education__school-developer" data-aos="fade-right" data-aos-duration="2000">
+        <p class="education__school-text">- 2021-2022
+          <br>
+          <br>Онлайн школа "CanSheCode"
+          <br>
+          <br><strong>frontend developer.</strong></p>
+        <img src="developer.jpg" width="270" class="education__image" alt="developer">
+      </div>
+    </div>
+  </section>
+
+  <section id="block__project">
+
+    <div class="works">
+      <p class="works__text">Проекты</p>
+    </div>
+
+    <div class="works__stack">
+      <button class="works__category" id="javascript">JavaScript</button>
+      <button class="works__category" id="react">React</button>
+      <button class="works__category" id="redux">Redux</button>
+      <button class="works__category" id="bootstrap">Bootstrap</button>
+      <button class="works__category active" id="all">Показать все</button>
+    </div>
+
+    <div class="works">
+      <div class="works__block react redux all">
+        <p class="works__paragraf">React/Redux</p>
+        <img src="workOne.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://benevolent-squirrel-6c51a2.netlify.app/" target="_blank" class="works__website">Интернет-магазин мебели...</a>
+      </div>
+
+      <div class="works__block react redux all">
+        <p class="works__paragraf">React/Redux</p>
+        <img src="workFive.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://astonishing-crisp-f31135.netlify.app/" target="_blank" class="works__website">Интернет-магазин спортивной обуви...</a></div>
+    </div>
+
+    <div class="works">
+      <div class="works__block react all">
+        <p class="works__paragraf">React</p>
+        <img src="workThree.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://merry-elf-7d1ec1.netlify.app/" target="_blank" class="works__website">Приложение "Рецепты"...</a>
+      </div>
+
+      <div class="works__block react all">
+        <p class="works__paragraf">React</p>
+        <img src="workFoir.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://stirring-tanuki-308f8f.netlify.app" target="_blank" class="works__website">Приложение "Афоризмы"...</a>
+      </div>
+    </div>
+
+    <div class="works">
+      <div class="works__block javascript all">
+        <p class="works__paragraf">HTML5/CSS3/JavaScript</p>
+        <img src="workTwoo.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://funny-babka-8d8011.netlify.app" target="_blank" class="works__website">Приложение "Доходы и расходы"...</a>
+      </div>
+
+      <div class="works__block javascript all">
+        <p class="works__paragraf">HTML5/CSS3/JavaScript</p>
+        <img src="workSix.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://broadleaf-sixth-fire.glitch.me/" target="_blank" class="works__website">Приложение "Планировщик дел"...</a>
+      </div>
+    </div>
+
+    <div class="works">
+      <div class="works__block javascript all">
+        <p class="works__paragraf">HTML5/CSS3/JavaScript</p>
+        <img src="workSeven.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://cobalt-colorful-christmas.glitch.me/" target="_blank" class="works__website">Приложение "Погода"...</a>
+      </div>
+
+      <div class="works__block javascript all">
+        <p class="works__paragraf">HTML5/CSS3/JavaScript</p>
+        <img src="workEight.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://uttermost-rhinestone-drug.glitch.me/" target="_blank" class="works__website">Приложение "Таймер до Рождества"...</a>
+      </div>
+    </div>
+
+    <div class="works">
+      <div class="works__block bootstrap all">
+        <p class="works__paragraf">HTML5/CSS3/Bootstrap</p>
+        <img src="workNine.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://band-simplistic-accelerator.glitch.me/" target="_blank" class="works__website">Сайт студии дизайна...</a>
+      </div>
+
+      <div class="works__block javascript all">
+        <p class="works__paragraf">HTML5/CSS3/JavaScript</p>
+        <img src="workTen.png" width="450" height="310" class="works__project-one" alt="project">
+        <a href="https://polite-kleicha-08a255.netlify.app/" target="_blank" class="works__website">Игра с компьютером "Угадай число"...</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="block__skills">
+
+    <div class="skills">
+      <p class="skills__text">Ключевые Навыки</p>
+    </div>
+
+    <div class="skills__skills">
+      <p class="skiils__skiils-html" data-aos="zoom-in" data-aos-duration="2000">HTML5</p>
+      <p class="skiils__skiils-css" data-aos="zoom-in" data-aos-duration="2000">CSS3</p>
+      <p class="skiils__skiils-bootstrap" data-aos="zoom-in" data-aos-duration="2000">Bootstrap5</p>
+      <p class="skiils__skiils-js" data-aos="zoom-in" data-aos-duration="2000">JavaScript</p>
+    </div>
+    <div class="skills__skills">
+      <p class="skiils__skiils-gsap" data-aos="zoom-in" data-aos-duration="2000">Gsap</p>
+      <p class="skiils__skiils-react" data-aos="zoom-in" data-aos-duration="2000">React</p>
+      <p class="skiils__skiils-redux" data-aos="zoom-in" data-aos-duration="2000">Redux</p>
+      <p class="skiils__skiils-rest" data-aos="zoom-in" data-aos-duration="2000">REST API</p>
+    </div>
+  </section>
+
+  <section id="block__contacts">
+    <div class="skills">
+      <p class="skills__text">Контакты</p>
+    </div>
+  </section>
+
+  <section>
+    <form action="https://formspree.io/f/meqnabvw" method="POST">
+      <input type="hidden" name="_language" value="ru">
+
+      <div class="section" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="feedback">
+          <input class="feedback__name" type="text" name="name" placeholder="Ваше имя..." required="">
+          <input class="feedback__email" type="email" name="email" placeholder="Введите email..." required="">
+          <textarea class="feedback__text" name="message" placeholder="Введите сообщение..." required=""></textarea>
+          <button class="feedback__btn" type="submit">Отправить</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <div class="contacts">
+      <a href="tel:+375445447817">
+        <img src="tel.png" alt="telephone" width="30" class="contacts__tel">
+      </a>
+      <a href="https://t.me/katya150491" target="_blank">
+        <img src="telegram.png" alt="telegram" width="30" class="contacts__telegram">
+      </a>
+      <a href="https://github.com/katya1504" target="_blank">
+        <img src="git.png" alt="github" width="30" class="contacts__git">
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="index.js"></script>
+</body>
+
+</html>
